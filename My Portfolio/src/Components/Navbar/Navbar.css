@@ -1,0 +1,112 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 170px;
+  background: transparent;
+  color: inherit;
+}
+
+/* === LOGO === */
+.logo-name {
+  font-size: 25px;
+  font-weight: 900;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  right: 130px;
+  color: inherit;
+}
+
+.logo-name::after {
+  content: ".";
+  font-size: 32px;
+  position: absolute;
+  right: -15px;
+  top: -2px;
+  color: #e600ff;
+}
+
+/* === NAVIGATION MENU === */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+  flex: 5;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+  cursor: pointer;
+}
+
+/* DARK THEME*/
+body.dark {
+  background-color: #161513;
+  color: white;
+}
+
+body.dark .nav-menu li a {
+  color: white;
+}
+
+body.dark .nav-menu li a:hover {
+  color: #e600ff;
+  text-decoration: underline;
+}
+
+/* LIGHT THEME */
+body.light {
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+}
+
+body.light .nav-menu li a {
+  color: #1a1a1a;
+}
+
+body.light .nav-menu li a:hover {
+  color: #f0932b;
+  text-decoration: underline;
+}
+
+.nav-connect {
+  padding: 12px 25px;
+  border-radius: 50px;
+  margin-right: -90px;
+  background: linear-gradient(to right, #e600ff, #f0932b);
+  font-size: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: transform 0.3s ease;
+  color: white;
+}
+
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+
+.theme-toggle {
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 22px;
+  background: none;
+  border: none;
+  color: inherit;
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
