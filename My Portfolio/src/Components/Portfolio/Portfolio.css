@@ -141,3 +141,27 @@ body.light .show-more-btn:hover {
 .show-more-btn:hover .arrow {
   transform: translateX(5px);
 }
+
+@media (max-width: 480px) {
+  .portfolio-header h2 {
+    font-size: 2rem;
+  }
+
+  .portfolio-title {
+    font-size: 0.95rem;
+    padding: 0.75rem;
+  }
+
+  .portfolio-card img {
+    height: 160px;
+  }
+
+  .show-more-btn {
+    font-size: 1rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  .arrow {
+    font-size: 1rem;
+  }
+}
