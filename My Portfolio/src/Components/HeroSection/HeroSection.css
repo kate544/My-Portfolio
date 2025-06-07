@@ -100,3 +100,61 @@ body.light .hero-resume {
   transform: scale(1.08) rotate(-1deg);
   box-shadow: 0 6px 20px rgba(230, 0, 255, 0.4);
 }
+
+@media (max-width: 768px) {
+  .HeroSection {
+    padding: 40px 16px;
+    gap: 20px;
+  }
+
+  .hero-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .HeroSection h1 {
+    font-size: 1.5rem;
+  }
+
+  .HeroSection p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .hero-action {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .hero-resume {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .HeroSection {
+    padding: 30px 12px;
+  }
+
+  .HeroSection h1 {
+    font-size: 1.2rem;
+  }
+
+  .HeroSection p {
+    font-size: 0.95rem;
+  }
+
+  .hero-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .hero-resume {
+    font-size: 14px;
+    padding: 10px 18px;
+  }
+}

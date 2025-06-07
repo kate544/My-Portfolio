@@ -4,9 +4,8 @@
   justify-content: space-between;
   margin: 20px 170px;
   background: transparent;
-  color: inherit;
+  color: inherit
 }
-
 /* === LOGO === */
 .logo-name {
   font-size: 25px;
@@ -109,4 +108,51 @@ body.light .nav-menu li a:hover {
 
 .theme-toggle:hover {
   transform: scale(1.1);
+}
+
+/* === RESPONSIVE NAVBAR === */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+  margin-left: 20px;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: currentColor;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin: 20px 30px;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: var(--background, #161513);
+    gap: 30px;
+    padding: 40px 0;
+    display: none;
+    z-index: 1000;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-connect {
+    display: none;
+  }
 }

@@ -1,5 +1,5 @@
 :root {
-  --background: #fffff
+  --background: #fffff;
   --text: #ffffff;
   --card-bg: #f5e6e6;
   --glow-color: rgba(168, 85, 247, 0.5); /* purple glow for light mode */
@@ -109,4 +109,38 @@ cursor: pointer;
 .subscribe-btn:hover {
   box-shadow: 0 0 15px var(--glow-color);
   cursor:pointer;
+}
+
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-bottom a {
+    margin: 0.5rem 0;
+  }
+
+  .footer-subscribe .subscribe-box {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.5rem;
+    border-radius: 1rem;
+  }
+
+  .subscribe-btn {
+    width: 100%;
+  }
+
+  .footer-subscribe input[type="email"] {
+    width: 100%;
+    text-align: center;
+  }
 }
