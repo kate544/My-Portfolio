@@ -17,7 +17,7 @@
 }
 
 .portfolio-header h2 span {
-  color: white;
+  color: var(--text);
   transition: color 0.3s ease;
   cursor: pointer;
 }
@@ -30,6 +30,10 @@ body.light .portfolio-header h2:hover span {
 body.dark .portfolio-header h2:hover,
 body.dark .portfolio-header h2:hover span {
   color: #e600ff;
+}
+
+.portfolio-header h2 span {
+  color: inherit;
 }
 
 .portfolio-grid {
