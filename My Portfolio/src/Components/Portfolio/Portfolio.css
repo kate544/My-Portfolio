@@ -32,10 +32,6 @@ body.dark .portfolio-header h2:hover span {
   color: #e600ff;
 }
 
-.portfolio-header h2 span {
-  color: black;
-}
-
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
