@@ -22,21 +22,14 @@
   cursor: pointer;
 }
 
-body.dark .portfolio-header h2:hover span {
-  color: #e600ff;
-}
-
+body.light .portfolio-header h2:hover,
 body.light .portfolio-header h2:hover span {
   color: #f0932b;
 }
 
-/* To this: */
-body.dark .portfolio-header h2:hover {
+body.dark .portfolio-header h2:hover,
+body.dark .portfolio-header h2:hover span {
   color: #e600ff;
-}
-
-body.light .portfolio-header h2:hover {
-  color: #f0932b;
 }
 
 .portfolio-header h2 span {
