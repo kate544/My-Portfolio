@@ -40,7 +40,7 @@ body.light .portfolio-header h2:hover {
 }
 
 .portfolio-header h2 span {
-  color: inherit;
+  color: black;
 }
 
 .portfolio-grid {
@@ -164,4 +164,8 @@ body.light .show-more-btn:hover {
   .arrow {
     font-size: 1rem;
   }
+}
+
+body.light .portfolio-title {
+color: black;
 }

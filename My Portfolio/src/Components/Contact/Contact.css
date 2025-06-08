@@ -134,3 +134,12 @@ body.light .contact-form textarea {
     padding: 0.6rem 1.25rem;
   }
 }
+
+/* Force text in contact section to be black in light mode */
+body.light .contact-section,
+body.light .contact-section p,
+body.light .contact-section h2,
+body.light .contact-section span,
+body.light .contact-section label {
+  color: black !important;
+}

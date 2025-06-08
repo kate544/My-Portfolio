@@ -155,4 +155,9 @@ body.light .nav-menu li a:hover {
   .nav-connect {
     display: none;
   }
+
+  .logo-name {
+    right: 0;
+    font-size: 20px;
+  }
 }

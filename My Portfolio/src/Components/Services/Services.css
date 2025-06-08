@@ -163,6 +163,23 @@ body.light .service-card:hover {
   .service-card a {
     font-size: 16px;
   }
+
+  @media (max-width: 480px) {
+.services {
+  overflow-x: hidden;
+}
+.services-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.service-card {
+  width: 100%;
+  box-sizing: border-box;
+}
+  }
 }
 
 
