@@ -23,7 +23,7 @@ const Footer = () => {
       <hr className="divider" />
 
       <div className="footer-bottom">
-        <p>&copy; 2026 Kathryn Tokoli. All rights reserved.</p>
+        <p>&copy; 2025 Kathryn Tokoli. All rights reserved.</p>
         <div className="footer-links">
           <a href="#">Terms of Service</a>
           <a href="#">Privacy Policy</a>
