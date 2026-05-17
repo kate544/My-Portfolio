@@ -3,18 +3,21 @@ import "./Portfolio.css";
 
 import ZenithDesign from "../../assets/ZenithDesign.png";
 import HomePage from "../../assets/Figma Homepage.png";
-import ComfortHomesDesign from "../../assets/ComfortHomesDesign.png";
-import ComfortHomes from "../../assets/ComfortHomes.png";
+import ComfortHomesDesign from "../../assets/ComfortHomes&VestaStayDesign.png";
+import VestaStayBooking from "../../assets/VestaStayBooking.png";
 import ComfortHomesMpesa from "../../assets/ComfortHomesMpesa.png";
+import PaystackApiProject from "../../assets/PaystackApiProject.png";
 import RegistrationForm from "../../assets/RegistrationForm.png";
+
 
 const Portfolio = () => {
   const portfolioItems = [
-    { image: HomePage, title: "HomePage Design", link: "https://www.figma.com/design/mfWCWF6Fb6vxDaxUxNmcRE/My-Portfolio?m=auto&t=MlU7se9biphIX45G-6"},
+    { image: HomePage, title: "Portfolio Design", link: "https://www.figma.com/design/mfWCWF6Fb6vxDaxUxNmcRE/My-Portfolio?m=auto&t=MlU7se9biphIX45G-6"},
     { image: ZenithDesign, title: "Zenith Ai Design", link: "https://www.figma.com/design/ruI0RV5L6MMjTcYmCo2W3t/Zenith-AI?m=auto&t=sRBnSeYxmc4QprKu-6" },
-    { image: ComfortHomesDesign, title: "ComfortHomesDesign", link: "https://www.figma.com/design/DxXqgKApQpjZkRL6OyenUF/Comfort-Homes?m=auto&t=wPmaW7kuzy8N88P9-6"},
-    { image: ComfortHomes, title: "ComfortHomes Website", link: "https://kate544.github.io/Comfort-Homes-2/" },
+    { image: ComfortHomesDesign, title: "ComfortHomes & VestaStay Design", link: "https://www.figma.com/design/DxXqgKApQpjZkRL6OyenUF/Comfort-Homes-VestaStay?node-id=0-1&p=f&t=FO2H4ekBatJvsoj4-0"},
+    { image: VestaStayBooking, title: "VestaStay Hotel Booking", link: "https://kate544.github.io/VestaStay/" },
     { image: ComfortHomesMpesa , title: "MpesaPayment Api", link: "https://kate544.github.io/ComfortHomes-Payment/" },
+    { image: PaystackApiProject, title: "Paystack Api Mini Project", link: "https://kate544.github.io/Paystack-Demo/" },
     { image: RegistrationForm, title: "Registration Form", link: "https://kate544.github.io/React-login-registration-form/" },
   ];
 
