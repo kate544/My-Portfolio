@@ -8,7 +8,7 @@ const HeroSection = () => {
       <img src={MyImage} alt='My Portrait' className='hero-image' />
       
       <h1>  
-  <span className="gradient-name">I'm Kathryn Tokoli,</span> a UI/UX developer & frontend developer based in Kenya.
+  <span className="gradient-name">I'm Kathryn Tokoli,</span> a Software Engineer & UI/UX Designer based in Kenya.
 </h1>
 
       <p>

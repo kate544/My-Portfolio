@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-brand">
           <div className='footer-logo'>Kathryn Tokoli<span> .</span></div>
           <p>
-            I am a frontend developer passionate about creating user-friendly, responsive web designs.
+            I am a Software Engineer & UI/UX Designer who is passionate about creating user-friendly, responsive web designs.
           </p>
         </div>
 
