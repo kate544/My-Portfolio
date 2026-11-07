@@ -12,7 +12,7 @@ const About = () => {
       <div className="about-right">
         <h2 className="about-title">About <span>me</span></h2>
        <p>
-  I'm a budding Frontend Developer and UI/UX enthusiast with a year of focused learning and hands-on practice. 
+  I'm a budding Software Engineer and UI/UX enthusiast with a year of focused learning and hands-on practice. 
   In this time, I've designed and built several personal projects that helped me develop a strong understanding of responsive design, user experience, and modern web development practices.
 </p>
 <p>
